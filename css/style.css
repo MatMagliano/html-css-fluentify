@@ -19,19 +19,19 @@ body {
   height: 80px;
   line-height: 80px;
   margin: 0 auto;
-  border: 1px solid #fff;
 }
 .nav-header .float::after{
   content: "";
   display: table;
   clear: both;
 }
+
 /* nav-left */
-.nav-left{
-  float: left;
-}
 .nav-header ul {
   list-style: none;
+}
+.nav-left{
+  float: left;
 }
 .nav-header ul li {
   display: inline-block;
@@ -44,7 +44,7 @@ body {
 }
 .nav-header ul li a {
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -52,6 +52,19 @@ body {
   color: #fff;
 }
 /* fine nav left */
+
+/* nav-right */
 .nav-right {
   float: right;
 }
+.nav-right .login {
+  border: 1px solid #fff;
+  padding:7px 20px;
+  border-radius: 5px;
+}
+.nav-right .struttura {
+  background-color: #7FB800;
+  padding:7px 20px;
+  border-radius: 5px;
+}
+/* fine nav-right */
