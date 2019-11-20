@@ -26,11 +26,10 @@ body {
   display: table;
   clear: both;
 }
+/* nav-left */
 .nav-left{
-  position: relative;
   float: left;
 }
-
 .nav-header ul {
   list-style: none;
 }
@@ -38,16 +37,21 @@ body {
   display: inline-block;
 }
 .nav-left .logo {
-  width: 85px;
-  vertical-align: middle;
+  width: 89px;
+  top: 50%;
+  transform: translateY(20%);
   margin-right: 25px;
 }
 .nav-header ul li a {
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  margin-right: 10px;
   color: #fff;
 }
+/* fine nav left */
 .nav-right {
   float: right;
 }
